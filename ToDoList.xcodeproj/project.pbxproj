@@ -30,6 +30,7 @@
 		999EF1702A37B4170022A81C /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999EF16F2A37B4170022A81C /* LoginViewViewModel.swift */; };
 		999EF1722A37B41F0022A81C /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999EF1712A37B41F0022A81C /* RegisterViewViewModel.swift */; };
 		999EF1742A37B43F0022A81C /* ToDoListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999EF1732A37B43F0022A81C /* ToDoListItemViewModel.swift */; };
+		999EF1772A37BA550022A81C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999EF1762A37BA550022A81C /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		999EF16F2A37B4170022A81C /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
 		999EF1712A37B41F0022A81C /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		999EF1732A37B43F0022A81C /* ToDoListItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewModel.swift; sourceTree = "<group>"; };
+		999EF1762A37BA550022A81C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				999EF15D2A37B2C70022A81C /* LoginView.swift */,
 				999EF15F2A37B2D50022A81C /* RegisterView.swift */,
 				999EF1612A37B3100022A81C /* ToDoListItemView.swift */,
+				999EF1762A37BA550022A81C /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				999EF15E2A37B2C70022A81C /* LoginView.swift in Sources */,
+				999EF1772A37BA550022A81C /* HeaderView.swift in Sources */,
 				999EF13F2A37AC600022A81C /* MainView.swift in Sources */,
 				999EF1722A37B41F0022A81C /* RegisterViewViewModel.swift in Sources */,
 				999EF1682A37B3DD0022A81C /* MainViewViewModel.swift in Sources */,
