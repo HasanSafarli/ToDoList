@@ -30,7 +30,12 @@ class NewItemViewViewModel: ObservableObject {
         // Create model
         
         // Save model
-        
+        let db = Firestore.firestore()
+        db.collection("users")
+            .document(uId)
+            .collection("todos")
+            .document("123")
+            .setData([:])
     }
     
     var canSave: Bool {
