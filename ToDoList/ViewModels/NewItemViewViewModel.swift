@@ -5,6 +5,9 @@
 //  Created by Hasan Safarli on 6/13/23.
 //
 
+
+import FirebaseAuth
+import FirebaseFirestore
 import Foundation
 
 class NewItemViewViewModel: ObservableObject {
@@ -15,6 +18,18 @@ class NewItemViewViewModel: ObservableObject {
     init() {}
     
     func save() {
+        guard canSave else {
+            return
+        }
+        
+        // Get current user id
+        guard let uId = Auth.auth().currentUser?.uid else {
+            return
+        }
+        
+        // Create model
+        
+        // Save model
         
     }
     
